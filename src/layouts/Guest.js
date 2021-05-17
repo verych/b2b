@@ -28,10 +28,9 @@ const switchRoutes = (
       component={LoginPage}
     />
     <Route
-      path='/landing'
+      path='/'
       component={LandingPage}
     />
-    <Redirect from="/" to="/landing" />
   </Switch>
 );
 

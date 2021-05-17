@@ -16,7 +16,9 @@ import routes from "routes.js";
 import styles from "assets/jss/material-dashboard-react/layouts/adminStyle.js";
 
 import bgImage from "assets/img/back.jpeg";
-import logo from "assets/img/magnit3.png";
+import logo from "assets/img/magnit6.png";
+
+import ProductPage from "views/Guest/Product.js";
 
 let ps;
 
@@ -34,6 +36,10 @@ const switchRoutes = (
       }
       return null;
     })}
+    <Route
+      path='/product'
+      component={ProductPage}
+    />
     <Redirect from="/admin" to="/admin/dashboard" />
   </Switch>
 );

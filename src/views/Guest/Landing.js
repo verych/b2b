@@ -66,6 +66,7 @@ const useStylesLanding = makeStyles((theme) => ({
     textAlign: "center"
   },
   logo: {
+    margin: "-70px 0 20px",
     border: "3px solid red",
     borderRadius: "15px",
     width: "100%",

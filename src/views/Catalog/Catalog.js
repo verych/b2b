@@ -201,7 +201,7 @@ export default function Catalog() {
                       (item, i) => {
                         return <div><h6>{item.category}</h6> {item.items.map(
                             (sub, j) => {
-                                return <p><a href="#">{sub}</a></p>;
+                                return <p><a href={"/product/" + sub}>{sub}</a></p>;
                             })}
                             </div>
                       }
